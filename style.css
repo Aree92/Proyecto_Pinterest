@@ -1,6 +1,6 @@
 /* fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-
+/* 'Ubuntu'  */
 
 
 :root{
@@ -8,6 +8,66 @@
     --color-input-nav:#efefef;
     --color-text-nav: #111111;
 }
+body{ 
+    font-family: 'Ubuntu';
+}
+.nav-bar{
+    font-size: 16px;
+  
+}
 
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-inline-start: 0px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
 
+.item-nav .link-nav{
+    text-decoration: none;
+    color: var(--color-text-nav);
+
+}
+.item-nav .link-nav.border{
+    background-color: black;
+    padding: 0.8rem;
+    border-radius: 24px;
+    color:white;
+
+}
+
+.item-nav .link-nav .input-nav{
+    width: 60vw;
+    padding: 1rem;
+    background-color: var(--color-input-nav);
+    border-radius: 24px;
+    border-color: transparent;
+
+}
+
+.link-nav.letter{
+    background-color: var(--color-input-nav);
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    font-size: 0.5rem;
+    border-radius: 50%;
+
+}
+
+/* icons nav */
+.fa-solid.fa-bell,.fa-comment-dots,.fa-angle-down{
+    font-size: 1.3rem;
+    color: var(--color-icon-nav)
+}
+.fa-solid.fa-angle-down{
+    font-size: 0.8rem;
+}
+
+/* logo styles */
+.fa-brands.fa-pinterest{
+    font-size: 1.4rem;
+    color: #c00;
+}
 
